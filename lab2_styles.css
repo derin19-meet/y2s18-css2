@@ -8,11 +8,20 @@ h1 {
     text-align: center;
 }
 
-p {
-    color: green;
+p { color: green;
     font-size: 24pt;
+
 }
+#important_paragraph{}
+
+
+#important_paragraph:hover {background-color:yellow; font-size:40pt;}
 
 a {
     color:red;
 }
+
+a:hover {color:blue;}
+
+.less_important_paragraphs{}
+.less_important_paragraphs:hover {color:blue;}
